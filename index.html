@@ -129,7 +129,7 @@ function setSidebarMarginTop (headerOffset) {
      var headOffset = getHeaderOffset();
      setSidebarMarginTop(headOffset);
    // alert(getHeaderOffset());
-   //以W为分隔符
+   //以W为分隔符;
   }
 </script>
 
@@ -231,7 +231,7 @@ function setSidebarMarginTop (headerOffset) {
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2019/12/18/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">建站笔记</a>
+            <a href="/2019/12/18/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">从零开始-搭建个人博客</a>
         </h1>
 
         <div class="post-meta">
@@ -248,7 +248,7 @@ function setSidebarMarginTop (headerOffset) {
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-22 01:23:48" itemprop="dateModified" datetime="2019-12-22T01:23:48+08:00">2019-12-22</time>
+                <time title="修改时间：2019-12-22 23:08:12" itemprop="dateModified" datetime="2019-12-22T23:08:12+08:00">2019-12-22</time>
               </span>
 
           
@@ -276,16 +276,43 @@ function setSidebarMarginTop (headerOffset) {
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Hexo-Github-pages免费建站"><a href="#Hexo-Github-pages免费建站" class="headerlink" title="Hexo+Github pages免费建站"></a>Hexo+Github pages免费建站</h1><p>deng <em>2019-12-18</em></p>
+          <h1 id="Hexo-Github-pages免费建站"><a href="#Hexo-Github-pages免费建站" class="headerlink" title="Hexo+Github pages免费建站"></a>Hexo+Github pages免费建站</h1><p><a href="https://zd1150.com">deng</a> <em>2019-12-18</em></p>
 <p>捣鼓了两天，终于把自己的<em>blog</em> 搭起来了，和我一样的新手小白可以参考一下。</p>
-<p><strong>网站框架：</strong> <em>Hexo+Github Pages</em> </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br><span class="line">git version 2.24.0.windows.2</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -v</span><br><span class="line">hexo: 4.1.1</span><br><span class="line">hexo-cli: 3.1.0</span><br><span class="line">os: Windows_NT 6.1.7601 win32 x64</span><br><span class="line">node: 12.13.1</span><br><span class="line">v8: 7.7.299.13-node.16</span><br><span class="line">uv: 1.33.1</span><br><span class="line">zlib: 1.2.11</span><br><span class="line">brotli: 1.0.7</span><br><span class="line">ares: 1.15.0</span><br><span class="line">modules: 72</span><br><span class="line">nghttp2: 1.39.2</span><br><span class="line">napi: 5</span><br><span class="line">llhttp: 1.1.4</span><br><span class="line">http_parser: 2.8.0</span><br><span class="line">openssl: 1.1.1d</span><br><span class="line">cldr: 35.1</span><br><span class="line">icu: 64.2</span><br><span class="line">tz: 2019c</span><br><span class="line">unicode: 12.1</span><br></pre></td></tr></table></figure>
+<p></code></pre></p>
+</details>
+
+<p><strong>网站框架：</strong> Hexo+Github Pages</p>
+<details>
+<summary>本机windows 建站插件版本信息</summary>
+<pre><code>
+$ git --version
+git version 2.24.0.windows.2
+------------------------------
+$ hexo -v
+hexo: 4.1.1
+hexo-cli: 3.1.0
+os: Windows_NT 6.1.7601 win32 x64
+node: 12.13.1
+v8: 7.7.299.13-node.16
+uv: 1.33.1
+zlib: 1.2.11
+brotli: 1.0.7
+ares: 1.15.0
+modules: 72
+nghttp2: 1.39.2
+napi: 5
+llhttp: 1.1.4
+http_parser: 2.8.0
+openssl: 1.1.1d
+cldr: 35.1
+icu: 64.2
+tz: 2019c
+unicode: 12.1
+</code></pre>
+</details>
 
 
-
-
-<p>可在在本地利用GitBash命令终端编辑内容、hexo生成静态文件推送到github仓库托管来实现互联网访问</p>
+<p>可在本地编辑内容，再由hexo生成静态展示文件并推送到github仓库托管，通过访问对应页面地址来实现互联网访问自己编辑的展示页面</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2019/12/18/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/#more" rel="contents">
@@ -463,6 +490,10 @@ function setSidebarMarginTop (headerOffset) {
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span>
+      </div>
   </nav>
 </div>
   <div class="cc-license motion-element" itemprop="license">
@@ -504,7 +535,7 @@ function setSidebarMarginTop (headerOffset) {
   <span class="post-meta-divider">|</span>
   <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.6.0
   </div>
------------------------------>
+--------------------------->
 
         
 
