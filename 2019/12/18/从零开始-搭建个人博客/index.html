@@ -55,7 +55,7 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;image.zd1150.com&#x2F;img&#x2F;20191220082833.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;image.zd1150.com&#x2F;img&#x2F;20191221010836.png">
 <meta property="article:published_time" content="2019-12-18T08:20:54.000Z">
-<meta property="article:modified_time" content="2019-12-23T12:39:26.543Z">
+<meta property="article:modified_time" content="2019-12-23T13:38:23.018Z">
 <meta property="article:author" content="Deng">
 <meta property="article:tag" content="搭建个人博客">
 <meta property="article:tag" content="Hexo+Github Pages">
@@ -256,7 +256,7 @@ function setSidebarMarginTop (headerOffset) {
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-23 20:39:26" itemprop="dateModified" datetime="2019-12-23T20:39:26+08:00">2019-12-23</time>
+                <time title="修改时间：2019-12-23 21:38:23" itemprop="dateModified" datetime="2019-12-23T21:38:23+08:00">2019-12-23</time>
               </span>
 
           
@@ -333,7 +333,7 @@ unicode: 12.1
 <li><strong><a href="https://blog.csdn.net/qq_39377418/article/details/95199800" target="_blank" rel="noopener">安装</a>Git</strong>（用于本地提交代码到github仓库）<br><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Windows下载</a> 默认安装就行  <em>其他系统可 <a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">参考</a></em></li>
 </ol>
 </blockquote>
-<p>打开GitBash来到命令行终端，此时可写个<code>md</code>文件推送到github进行网页简单测试：（可跳过这步）</p>
+<p>打开GitBash来到命令行终端，此时可编辑网页展示文件<code>test.md</code>推送到github进行简单测试：（可跳过这步）</p>
 <ul>
 <li>新建文件夹blog并初始化作为Git代码库<br><code>$ git init blog</code></li>
 <li>在工作区blog创建编辑展示的md文件并提交到暂存区<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd blog&#x2F;   </span><br><span class="line">$ echo &#39;Hello World!&#39; &gt; test.md </span><br><span class="line">$ git add test.md</span><br></pre></td></tr></table></figure></li>
@@ -343,7 +343,9 @@ unicode: 12.1
 <p>ok 现在你可以通过访问<code>userid.github.io</code>访问创建的展示页面了！<br>ヾ(๑╹◡╹)ﾉ”</p>
 <p><strong><em>PS:</em></strong> <em>Github pages 可绑定独立域名进行访问</em></p>
 <hr>
-<h2 id="Hexo搭建"><a href="#Hexo搭建" class="headerlink" title="Hexo搭建"></a>Hexo搭建</h2><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。—-引自<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo中文开发文档</a></p>
+<h2 id="Hexo搭建"><a href="#Hexo搭建" class="headerlink" title="Hexo搭建"></a>Hexo搭建</h2><blockquote>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。—-引自<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo中文开发文档</a></p>
+</blockquote>
 <p><strong>环境配置：</strong></p>
 <ul>
 <li><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">下载Node.js</a></li>
@@ -399,11 +401,13 @@ theme: next
 </ul>
 <p><strong><em><code>$ hexo clean</code>清除缓存文件 (db.json) 和已生成的静态文件 (public)。</em></strong><br>在某些情况（尤其是更换主题后），如果发现对站点的更改无论如何也不生效，可能需要运行该命令。</p>
 <p><strong>Hexo常用命令简介：</strong></p>
-<p>编辑内容（在gitbash编辑文本不太友好，良心推荐一款神器VScode，可当编辑工具使用但远不限于此==&gt;<a href="">传送门搭建ing</a> )</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;postName&quot; #新建文章</span><br><span class="line">$ hexo new page &quot;pageName&quot; #新建页面</span><br></pre></td></tr></table></figure>
-<p>命令简写：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g #generate编译部署内容public</span><br><span class="line">$ hexo s #server开启本地预览服务 通过访问http:&#x2F;&#x2F;localhost:4000&#x2F; 测试你的页面</span><br><span class="line">$ hexo d #deploy将public下的内容部署到远程仓库</span><br></pre></td></tr></table></figure>
+<ul>
+<li>编辑文本内容：(md文件编辑参考markdown语法)</li>
+<li>在gitbash编辑文本不太友好，良心推荐一款神器VScode，可作编辑工具使用但远不限于此==&gt;<a href="https://zd1150.com/2019/12/23/VScode%E9%85%8D%E7%BD%AEHexo%E5%8D%9A%E5%AE%A2%E7%BC%96%E5%86%99%E7%8E%AF%E5%A2%83/">传送门搭建ing</a> )*<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;postName&quot; #新建文章</span><br><span class="line">$ hexo new page &quot;pageName&quot; #新建页面</span><br></pre></td></tr></table></figure></li>
+<li>命令简写：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g #generate编译部署内容public</span><br><span class="line">$ hexo s #server开启本地预览服务 通过访问http:&#x2F;&#x2F;localhost:4000&#x2F; 测试你的页面</span><br><span class="line">$ hexo d #deploy将public下的内容部署到远程仓库</span><br></pre></td></tr></table></figure>
 
+</li>
+</ul>
 <p><a href="https://zd1150.com/2019/12/23/%E9%82%A3%E4%BA%9B%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/">踩坑小提示</a> 更新主题后发现个小问题，站点<code>_config.yml</code>配置文件中将language即使修改为<code>zh-Hans</code>,中文并没有全局生效；是next主题对应的中文配置文件<code>zh-CN.yml</code>跟站点配置不一致导致。</p>
 <p><img src="http://image.zd1150.com/img/20191220082833.png" alt=""></p>
 <ul>
