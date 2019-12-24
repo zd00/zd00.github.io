@@ -55,7 +55,7 @@
 <meta property="og:image" content="http:&#x2F;&#x2F;image.zd1150.com&#x2F;img&#x2F;20191220082833.png">
 <meta property="og:image" content="http:&#x2F;&#x2F;image.zd1150.com&#x2F;img&#x2F;20191221010836.png">
 <meta property="article:published_time" content="2019-12-18T08:20:54.000Z">
-<meta property="article:modified_time" content="2019-12-24T14:31:58.128Z">
+<meta property="article:modified_time" content="2019-12-24T14:34:44.978Z">
 <meta property="article:author" content="Deng">
 <meta property="article:tag" content="搭建个人博客">
 <meta property="article:tag" content="Hexo+Github Pages">
@@ -265,7 +265,7 @@ function setSidebarMarginTop (headerOffset) {
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-12-24 22:31:58" itemprop="dateModified" datetime="2019-12-24T22:31:58+08:00">2019-12-24</time>
+                <time title="修改时间：2019-12-24 22:34:44" itemprop="dateModified" datetime="2019-12-24T22:34:44+08:00">2019-12-24</time>
               </span>
 
           
@@ -328,7 +328,7 @@ unicode: 12.1
 <p>可在本地编辑内容，再由hexo生成静态展示文件并推送到github仓库托管，通过访问对应页面地址来实现互联网访问自己编辑的展示页面</p>
 <a id="more"></a>
 <hr>
-<h2 id="Github-Pages设置">Github Pages设置</h2>
+<h2 id="Github-Pages设置"><a class="header-anchor" href="#Github-Pages设置">¶</a>Github Pages设置</h2>
 <p>GitHub Pages 作用是介绍托管在GitHub的项目，由于空间免费稳定，所以常被用来做搭建个人网站。</p>
 <blockquote>
 <ol>
@@ -339,12 +339,10 @@ unicode: 12.1
 </blockquote>
 <blockquote>
 <ol start="2">
-<li><strong><a href="https://blog.csdn.net/qq_39377418/article/details/95199800" target="_blank" rel="noopener">安装</a>Git</strong>（用于本地提交代码到github仓库）<a href="%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99%EF%BC%9A">^1</a><br>
-<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Windows下载</a> 默认安装就行  <em>其他系统 [^2]</em></li>
+<li><strong><a href="https://blog.csdn.net/qq_39377418/article/details/95199800" target="_blank" rel="noopener">安装</a>Git</strong>（用于本地提交代码到github仓库）<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup><br>
+<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Windows下载</a> 默认安装就行  <em>其他系统 <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></em></li>
 </ol>
 </blockquote>
-<p><a href="https://blog.csdn.net/qq_39377418/article/details/95199800" target="_blank" rel="noopener">ElvisCT(CSDN)《Git安装教程 (windows)》</a></p>
-<p>[^2]: <a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">Scott Chacon、Ben Straub《Pro Git》</a></p>
 <p>打开GitBash来到命令行终端，此时可编辑网页展示文件<code>test.md</code>推送到github进行简单测试：（可跳过这步）</p>
 <ul>
 <li>新建文件夹blog并初始化作为Git代码库<br>
@@ -356,18 +354,18 @@ unicode: 12.1
 <li>将暂存区提交到版本库并连接到远程仓库进行推送部署</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git commit -m &#39;test&#39;</span><br><span class="line">$ git remote add origin https:&#x2F;&#x2F;github.com&#x2F;userid&#x2F;userid.github.io.git</span><br><span class="line">$ git push -u origin master</span><br></pre></td></tr></table></figure>
-<p>*关于git更多信息 感兴趣的可以看看 <a href="%5B%E5%BB%96%E9%9B%AA%E5%B3%B0%E3%80%8Agit%E6%95%99%E7%A8%8B%E3%80%8B%5D(https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000)">^3</a></p>
+<p>*关于git更多信息 感兴趣的可以看看 <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></p>
 <p>ok 现在你可以通过访问<code>userid.github.io</code>访问创建的展示页面了！<br>
 ヾ(๑╹◡╹)ﾉ&quot;</p>
 <p><em><strong>PS:</strong></em> <em>Github pages 可绑定独立域名进行访问</em></p>
-<h2 id="Hexo搭建">Hexo搭建</h2>
+<h2 id="Hexo搭建"><a class="header-anchor" href="#Hexo搭建">¶</a>Hexo搭建</h2>
 <blockquote>
-<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<a href="%5Bhexo%E4%B8%AD%E6%96%87%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3%5D(https://hexo.io/zh-cn/docs/)">^4</a></p>
+<p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
 </blockquote>
 <p><strong>环境配置：</strong></p>
 <ul>
 <li><a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js官方下载</a></li>
-<li><a href="https://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">参考安装</a> ^[<a href="https://www.runoob.com/nodejs" target="_blank" rel="noopener">站点runoob.com/《 Node.js 安装配置》</a>]</li>
+<li><a href="https://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="noopener">参考安装</a> <sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></li>
 </ul>
 <p><strong>安装Hexo</strong> <code>NexT.Pisces v7.6.0</code></p>
 <ul>
@@ -393,7 +391,7 @@ unicode: 12.1
 └── package-lock.json
   </pre></code>
 </details>
-<h3 id="Hexo关于Github-Pages的推送配置">Hexo关于Github Pages的推送配置</h3>
+<h3 id="Hexo关于Github-Pages的推送配置"><a class="header-anchor" href="#Hexo关于Github-Pages的推送配置">¶</a>Hexo关于Github Pages的推送配置</h3>
 <ul>
 <li>hexo deploy可以部署到很多平台，若要部署到github，需要在站点配置文件<code>_config.xml</code>中作如下修改：(repo地址注意调整)</li>
 </ul>
@@ -402,7 +400,7 @@ unicode: 12.1
 <li>在blog目录下，安装Git部署插件：<br>
 <code>$ npm install hexo-deployer-git --save</code></li>
 </ul>
-<h3 id="Hexo主题安装配置过程">Hexo主题安装配置过程</h3>
+<h3 id="Hexo主题安装配置过程"><a class="header-anchor" href="#Hexo主题安装配置过程">¶</a>Hexo主题安装配置过程</h3>
 <ul>
 <li>下载主题到themes目录下，以next主题为例：<br>
 <code>$ git clone https://github.com/theme-next/hexo-theme-next.git themes/next</code></li>
@@ -441,6 +439,22 @@ theme: next
 <img src="http://image.zd1150.com/img/20191221010836.png" alt=""></li>
 <li><code>$ hexo g</code>编译、<code>hexo d</code>远程部署</li>
 </ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>参考资料：<br>
+<a href="https://blog.csdn.net/qq_39377418/article/details/95199800" target="_blank" rel="noopener">ElvisCT(CSDN)《Git安装教程 (windows)》</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git" target="_blank" rel="noopener">Scott Chacon、Ben Straub《Pro Git》</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://www.liaoxuefeng.com/wiki/896043488029600/896067008724000" target="_blank" rel="noopener">廖雪峰《git教程》</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo中文开发文档</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://www.runoob.com/nodejs" target="_blank" rel="noopener">站点runoob.com/《 Node.js 安装配置》</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 
     </div>
 
@@ -569,7 +583,7 @@ theme: next
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">Hexo+Github Pages免费建站</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Pages设置"><span class="nav-number">1.1.</span> <span class="nav-text">Github Pages设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo搭建"><span class="nav-number">1.2.</span> <span class="nav-text">Hexo搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo关于Github-Pages的推送配置"><span class="nav-number">1.2.1.</span> <span class="nav-text">Hexo关于Github Pages的推送配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo主题安装配置过程"><span class="nav-number">1.2.2.</span> <span class="nav-text">Hexo主题安装配置过程</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">Hexo+Github Pages免费建站</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Github-Pages设置"><span class="nav-number">1.1.</span> <span class="nav-text">¶Github Pages设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo搭建"><span class="nav-number">1.2.</span> <span class="nav-text">¶Hexo搭建</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo关于Github-Pages的推送配置"><span class="nav-number">1.2.1.</span> <span class="nav-text">¶Hexo关于Github Pages的推送配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo主题安装配置过程"><span class="nav-number">1.2.2.</span> <span class="nav-text">¶Hexo主题安装配置过程</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
