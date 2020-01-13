@@ -35,7 +35,7 @@ const ap = new APlayer({
     {
       name: '马马嘟嘟骑',
       artist: '斯斯与帆',
-      //lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
+      lrc: 'http://music.zd1150.com/%E9%A9%AC%E9%A9%AC%E5%98%9F%E5%98%9F%E9%AA%91-%E6%96%AF%E6%96%AF%E4%B8%8E%E5%B8%86.lrc',
       cover: 'http://imge.kugou.com/stdmusic/150/20181029/2018102….jpg',
       url: 'https://sharefs.yun.kugou.com/202001121611/8854c9793fdf1abaf72c3b3ccdc15494/G108/M03/10/19/TJQEAFvWvyyAeK29ACy1ucHOABk836.mp3'
     }
