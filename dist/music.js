@@ -12,32 +12,46 @@ const ap = new APlayer({
   volume: 0.7, //默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   fixed: true, //吸底模式（fixed:true），迷你模式（mini:true），普通模式（注释此行或者设置fixed:false）
   audio: [{
+    name: 'We Have To Go',
+    artist: '白婧',
+    lrc: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.lrc',
+    cover: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.jpg?param=300x300',
+    url: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.mp3'
+    },
+    {
+      name: 'Garden Party',
+      artist: 'Ricky Nelson',
+      lrc: 'http://music.zd1150.com/Garden%20Party-Ricky%20Nelson.lrc',
+      cover: 'http://music.zd1150.com/Garden%20Party.PNG?param=300x300',
+      url: 'http://music.zd1150.com/Garden%20Party.mp3'
+    },
+    {
       name: '蝴蝶泉边',
       artist: '黄雅莉',
-      lrc: 'http://music.zd1150.com/%E8%9D%B4%E8%9D%B6%E6%B3%89%E8%BE%B9-%E9%BB%84%E9%9B%85%E8%8E%89.lrc',
-      cover: 'http://music.zd1150.com/hdqb-hyl.jpg?param=300x300',
-      url: 'http://music.zd1150.com/%E8%9D%B4%E8%9D%B6%E6%B3%89%E8%BE%B9-%E9%BB%84%E9%9B%85%E8%8E%89.mp3'
+      lrc: 'http://music.zd1150.com/hdqb_hyl.lrc',
+      cover: 'http://music.zd1150.com/hdqb_hyl.jpg?param=300x300',
+      url: 'http://music.zd1150.com/hdqb_hyl.mp3'
     },
     {
       name: '你有一座世外桃源，用来补血和自言自语',
       artist: '音乐故事',
-      //lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
+      lrc: '暂无歌词，抱歉',
       cover: 'http://music.zd1150.com/nyyzswty.jpg?param=300x300',
-      url: 'http://music.zd1150.com/%E4%BD%A0%E6%9C%89%E4%B8%80%E5%BA%A7%E4%B8%96%E5%A4%96%E6%A1%83%E6%BA%90%EF%BC%8C%E7%94%A8%E6%9D%A5%E8%A1%A5%E8%A1%80%E5%92%8C%E8%87%AA%E8%A8%80%E8%87%AA%E8%AF%AD.m4a'
+      url: 'http://music.zd1150.com/nyyzswty.m4a'
     },
     {
       name: '大部分的生活都乏味的不值一提',
       artist: '默默道来',
       //lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
       cover: 'http://music.zd1150.com/dbfdshdfwdbzyt.jpg?param=300x300',
-      url: 'http://music.zd1150.com/%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84%E7%94%9F%E6%B4%BB%E9%83%BD%E4%B9%8F%E5%91%B3%E7%9A%84%E4%B8%8D%E5%80%BC%E4%B8%80%E6%8F%90.m4a'
+      url: 'http://music.zd1150.com/dbfdshdfwdbzyt.m4a'
     },
     {
       name: '马马嘟嘟骑',
       artist: '斯斯与帆',
-      lrc: 'http://music.zd1150.com/%E9%A9%AC%E9%A9%AC%E5%98%9F%E5%98%9F%E9%AA%91-%E6%96%AF%E6%96%AF%E4%B8%8E%E5%B8%86.lrc',
-      cover: 'http://imge.kugou.com/stdmusic/150/20181029/2018102….jpg',
-      url: 'https://sharefs.yun.kugou.com/202001121611/8854c9793fdf1abaf72c3b3ccdc15494/G108/M03/10/19/TJQEAFvWvyyAeK29ACy1ucHOABk836.mp3'
+      lrc: 'http://music.zd1150.com/mmddq.lrc',
+      cover: 'http://music.zd1150.com/mmddq.jpg',
+      url: 'http://music.zd1150.com/mmddq.mp3'
     }
 
   ]
