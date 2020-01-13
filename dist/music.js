@@ -1,6 +1,6 @@
 const ap = new APlayer({
   container: document.getElementById('aplayer'),
-  autoplay: true, //自动播放
+  autoplay: false, //自动播放
   listFolded: true, //播放列表默认折叠
   listMaxHeight: 90, //播放列表最大高度
   order: 'list', //音频循环顺序, 可选值: 'list', 'random'
@@ -31,6 +31,13 @@ const ap = new APlayer({
       //lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
       cover: 'http://music.zd1150.com/dbfdshdfwdbzyt.jpg?param=300x300',
       url: 'http://music.zd1150.com/%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84%E7%94%9F%E6%B4%BB%E9%83%BD%E4%B9%8F%E5%91%B3%E7%9A%84%E4%B8%8D%E5%80%BC%E4%B8%80%E6%8F%90.m4a'
+    },
+    {
+      name: '马马嘟嘟骑',
+      artist: '斯斯与帆',
+      //lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
+      cover: 'http://imge.kugou.com/stdmusic/150/20181029/2018102….jpg',
+      url: 'https://sharefs.yun.kugou.com/202001121611/8854c9793fdf1abaf72c3b3ccdc15494/G108/M03/10/19/TJQEAFvWvyyAeK29ACy1ucHOABk836.mp3'
     }
 
   ]
