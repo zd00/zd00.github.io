@@ -16,7 +16,7 @@ const ap = new APlayer({
     artist: '白婧',
     lrc: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.lrc',
     cover: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.jpg?param=300x300',
-    url: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.mp3'
+    url: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.mp3',
     },
     {
       name: 'Garden Party',
