@@ -14,44 +14,44 @@ const ap = new APlayer({
   audio: [{
     name: 'We Have To Go',
     artist: '白婧',
-    lrc: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.lrc',
-    cover: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.jpg?param=300x300',
-    url: 'http://music.zd1150.com/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.mp3',
+    lrc: 'audio.zd1150.com/lrc/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.lrc',
+    cover: 'audio.zd1150.com/cover/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.jpg?param=300x300',
+    url: 'audio.zd1150.com/song/We%20Have%20To%20Go-%E7%99%BD%E5%A9%A7.mp3',
     },
     {
       name: 'Garden Party',
       artist: 'Ricky Nelson',
-      lrc: 'http://music.zd1150.com/Garden%20Party-Ricky%20Nelson.lrc',
-      cover: 'http://music.zd1150.com/Garden%20Party.PNG?param=300x300',
-      url: 'http://music.zd1150.com/Garden%20Party.mp3'
+      lrc: 'audio.zd1150.com/lrc/Garden%20Party-Ricky%20Nelson.lrc',
+      cover: 'audio.zd1150.com/cover/Garden%20Party.PNG?param=300x300',
+      url: 'audio.zd1150.com/song/Garden%20Party.mp3'
     },
     {
       name: '蝴蝶泉边',
       artist: '黄雅莉',
-      lrc: 'http://music.zd1150.com/hdqb_hyl.lrc',
-      cover: 'http://music.zd1150.com/hdqb_hyl.jpg?param=300x300',
-      url: 'http://music.zd1150.com/hdqb_hyl.mp3'
+      lrc: 'audio.zd1150.com/lrc/%E8%9D%B4%E8%9D%B6%E6%B3%89%E8%BE%B9-%E9%BB%84%E9%9B%85%E8%8E%89.lrc',
+      cover: 'audio.zd1150.com/cover/%E8%9D%B4%E8%9D%B6%E6%B3%89%E8%BE%B9-%E9%BB%84%E9%9B%85%E8%8E%89.jpg?param=300x300',
+      url: 'audio.zd1150.com/song/%E8%9D%B4%E8%9D%B6%E6%B3%89%E8%BE%B9-%E9%BB%84%E9%9B%85%E8%8E%89.mp3'
     },
     {
       name: '你有一座世外桃源，用来补血和自言自语',
       artist: '音乐故事',
       lrc: '暂无歌词，抱歉',
-      cover: 'http://music.zd1150.com/nyyzswty.jpg?param=300x300',
-      url: 'http://music.zd1150.com/nyyzswty.m4a'
+      cover: 'audio.zd1150.com/cover/%E4%BD%A0%E6%9C%89%E4%B8%80%E5%BA%A7%E4%B8%96%E5%A4%96%E6%A1%83%E6%BA%90%EF%BC%8C%E7%94%A8%E6%9D%A5%E8%A1%A5%E8%A1%80%E5%92%8C%E8%87%AA%E8%A8%80%E8%87%AA%E8%AF%AD.jpg?param=300x300',
+      url: 'audio.zd1150.com/song/%E4%BD%A0%E6%9C%89%E4%B8%80%E5%BA%A7%E4%B8%96%E5%A4%96%E6%A1%83%E6%BA%90%EF%BC%8C%E7%94%A8%E6%9D%A5%E8%A1%A5%E8%A1%80%E5%92%8C%E8%87%AA%E8%A8%80%E8%87%AA%E8%AF%AD.m4a'
     },
     {
       name: '大部分的生活都乏味的不值一提',
       artist: '默默道来',
       //lrc: '/downloads/lrc/后会无期-G.E.M.邓紫棋.lrc',
-      cover: 'http://music.zd1150.com/dbfdshdfwdbzyt.jpg?param=300x300',
-      url: 'http://music.zd1150.com/dbfdshdfwdbzyt.m4a'
+      cover: 'audio.zd1150.com/cover/%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84%E7%94%9F%E6%B4%BB%E9%83%BD%E4%B9%8F%E5%91%B3%E7%9A%84%E4%B8%8D%E5%80%BC%E4%B8%80%E6%8F%90.jpg?param=300x300',
+      url: 'audio.zd1150.com/song/%E5%A4%A7%E9%83%A8%E5%88%86%E7%9A%84%E7%94%9F%E6%B4%BB%E9%83%BD%E4%B9%8F%E5%91%B3%E7%9A%84%E4%B8%8D%E5%80%BC%E4%B8%80%E6%8F%90.m4a'
     },
     {
       name: '马马嘟嘟骑',
       artist: '斯斯与帆',
-      lrc: 'http://music.zd1150.com/mmddq.lrc',
-      cover: 'http://music.zd1150.com/mmddq.jpg',
-      url: 'http://music.zd1150.com/mmddq.mp3'
+      lrc: 'audio.zd1150.com/lrc/%E9%A9%AC%E9%A9%AC%E5%98%9F%E5%98%9F%E9%AA%91-%E6%96%AF%E6%96%AF%E4%B8%8E%E5%B8%86.lrc',
+      cover: 'audio.zd1150.com/cover/%E9%A9%AC%E9%A9%AC%E5%98%9F%E5%98%9F%E9%AA%91-%E6%96%AF%E6%96%AF%E4%B8%8E%E5%B8%86.jpg',
+      url: 'audio.zd1150.com/song/%E9%A9%AC%E9%A9%AC%E5%98%9F%E5%98%9F%E9%AA%91-%E6%96%AF%E6%96%AF%E4%B8%8E%E5%B8%86.mp3'
     }
 
   ]
